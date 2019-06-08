@@ -1,0 +1,59 @@
+<!-- User Id Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('user_id', 'User Id:') !!}
+    {!! Form::number('user_id', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Role Id Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('role_id', 'Role Id:') !!}
+    {!! Form::number('role_id', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Name Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('name', 'Name:') !!}
+    {!! Form::text('name', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- About Field -->
+<div class="form-group col-sm-12 col-lg-12">
+    {!! Form::label('about', 'About:') !!}
+    {!! Form::textarea('about', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Cv Field -->
+<div class="form-group col-sm-12 col-lg-12">
+    {!! Form::label('cv', 'Cv:') !!}
+    {!! Form::textarea('cv', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Exhibitions Field -->
+<div class="form-group col-sm-12 col-lg-12">
+    {!! Form::label('exhibitions', 'Exhibitions:') !!}
+    {!! Form::textarea('exhibitions', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Mentors Field -->
+<div class="form-group col-sm-12 col-lg-12">
+    {!! Form::label('mentors', 'Mentors:') !!}
+    {!! Form::textarea('mentors', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Tags Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('tags', 'Tags:') !!}
+    {!! Form::text('tags', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Image Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('image', 'Image:') !!}
+    {!! Form::text('image', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Submit Field -->
+<div class="form-group col-sm-12">
+    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
+    <a href="{!! route('artists.index') !!}" class="btn btn-default">Cancel</a>
+</div>

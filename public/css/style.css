@@ -1,0 +1,159 @@
+.give-bottom-space{
+
+    margin-top: 10px;
+    color: #22558a;
+    font-size: 14px;
+}
+
+.small-font{
+    margin-bottom: 10px;
+    color: #3f3e3e;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.small-red{
+    color: #ed1c40;
+}
+
+.small-green{
+    color: #0d8b37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+table {
+    text-align: left;
+    line-height: 40px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #ed1c40;
+    width: 500px;
+    margin: 5px auto;
+    border-radius: .25rem;
+}
+
+thead tr:first-child {
+    background: #ed1c40;
+    color: #fff;
+    border: none;
+}
+
+th:first-child,
+td:first-child {
+    padding: 0 15px 0 20px;
+}
+
+th {
+    font-weight: 500;
+}
+
+thead tr:last-child th {
+    border-bottom: 3px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2;
+    cursor: default;
+}
+
+tbody tr:last-child td {
+    border: none;
+}
+
+tbody td {
+    border-bottom: 1px solid #ddd;
+}
+
+td:last-child {
+    text-align: left;
+    padding-right: 10%;
+}
+
+.button {
+    color: #aaa;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.edit:hover {
+    color: #0a79df;
+}
+
+.delete:hover {
+    color: #dc2a2a;
+}
+
+
+
+/* tabs/pills */
+
+#exTab1 .tab-content {
+    color : #000000;
+    padding : 5px 15px;
+    width: 98%;
+}
+
+#exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+
+
+
+.carousel {
+    position: relative;
+    width: 95%;
+    padding-bottom: 5%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
